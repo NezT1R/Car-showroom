@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testing site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header__container-top">
+        <div class="wrapper">
+            <div class="header__top">
+                <div class="logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="menu">
+                    <div class="menu__burger-btn">
+                        <img class="menu__burger" src="img/adaptive/burgerMenu.png" alt="menu__burger">
+                        <img class="menu__cross" src="img/adaptive/cross.png" alt="menu__cross">
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">Автомобили в наличии</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Спецпредложения</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Продать авто</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Сервис</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__button">
+                    <button class="button"> Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__container-bottom">
+        <div class="wrapper">
+            <div class="header__bottom">
+                <div class="header__bottom-inner">
+                    <div class="header__address">
+                        <img class="map-pin" src="img/map-pin.png" alt="map-pin">
+                        <div class="header__address-text header__bottom-text">Олимпийский просп., 5, стр. 1, Москва
+                        </div>
+                    </div>
+                    <div class="header__bottom-gps ">
+                        <img src="img/airplane.png" alt="airplane">
+                        <div class="header__bottom-text header__gps "><a class="header__gps-link" href="#">Проложить
+                            маршрут</a></div>
+                    </div>
+                </div>
+                <div class="header__bottom-time">
+                    <img class="header__time-img" src="img/time.png" alt="time">
+                    <div class="header__time-text header__bottom-text">
+                        <span>9:00 - 21:00 (ежедневно)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="wrapper main__wrapper">
+        <h2 class="main__text-service">Теперь услуги дилерского центра Вы можете можете получить онлайн!</h2>
+        <article class="article">
+            <section class="main__section main__diagnostic">
+                <div class="section__container">
+                    <h3 class="main__text main__diagnostic-text">Диагностика автомобиля
+                        перед покупкой</h3>
+                    <p class="main__text-description main__diagnostic-description">
+                        Расскажем обо всех скрытых дефектах автомобиля с пробегом
+                    </p>
+                    <button class="main__btn main__diagnostic-btn main__btn-adaptive">Записаться</button>
+                </div>
+                <picture class="diagnostic__img-container">
+                    <source srcset="img/adaptive/600/cars600px.png" media="(max-width: 599px)">
+                    <source srcset="img/adaptive/900/cars900px.png" media="(max-width: 899px)">
+                    <source srcset="img/adaptive/cars1200px.png" media="(max-width: 1199px)">
+                    <img class="diagnostic-img" src="img/cars.png" alt="cars">
+                </picture>
+
+            </section>
+            <div class="main__inner">
+                <section class="main__section main__section-center main__show">
+                    <div class="show__img-container">
+                        <div class="section__container">
+                            <h3 class="main__text main__show-text">Онлайн показ автомобиля по видеосвязи</h3>
+                            <p class="main__text-description main__show-description">
+                                Проведем онлайн-показ интересующего автомобиля в удобное для Вас время
+                            </p>
+                            <button class="main__btn main__show-btn main__btn-adaptive">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="image show__img">
+                            <img class="show__img-car" src="img/car.png" alt="car">
+                    </div>
+                </section>
+                <section class="main__section main__section-center main__reservation">
+                    <div class="section__container">
+                        <h3 class="main__text main__reservation-text">Онлайн бронирование</h3>
+                        <p class="main__text-description main__reservation-description">
+                            Забронируйте понравившийся<br>автомобиль без визита в дилерский центр
+                        </p>
+                        <button class="main__btn main__reservation-btn main__btn-adaptive">Забронировать</button>
+                    </div>
+                    <div class="image reservation__img">
+                        <img class="reservation__img-phone" src="img/phone.png" alt="phone">
+                    </div>
+                </section>
+            </div>
+            <section class="main__section main__section-center main__show main__reservation-adaptive">
+                <div class="show__img-container">
+                    <div class="section__container">
+                        <h3 class="main__text main__show-text">Онлайн показ автомобиля по видеосвязи</h3>
+                        <p class="main__text-description main__show-description">
+                            Проведем онлайн-показ интересующего автомобиля в удобное для Вас время
+                        </p>
+                        <button class="main__btn main__show-btn main__btn-adaptive">Оставить заявку</button>
+                    </div>
+                </div>
+                <picture class="image show__img">
+                    <source srcset="img/adaptive/600/car600px.png" media="(max-width: 599px)">
+                    <source srcset="img/adaptive/900/car900px.png" media="(max-width: 899px)">
+                    <source srcset="img/adaptive/car1200px.png" media="(max-width: 1199px)">
+                    <img class="show__img-car" src="img/car.png" alt="car">
+                </picture>
+            </section>
+            <section class="main__section main__section-center main__reservation main__reservation-adaptive">
+                <div class="section__container">
+                    <h3 class="main__text main__reservation-text">Онлайн бронирование</h3>
+                    <p class="main__text-description main__reservation-description">
+                        Забронируйте понравившийся автомобиль без визита в дилерский центр
+                    </p>
+                    <button class="main__btn main__reservation-btn main__btn-adaptive">Забронировать</button>
+                </div>
+                <picture class="image reservation__img">
+                    <source srcset="img/adaptive/600/phone600px.png" media="(max-width: 599px)">
+                    <source srcset="img/adaptive/900/phone900px.png" media="(max-width: 899px)">
+                    <source srcset="img/adaptive/phone1200px.png" media="(max-width: 1199px)">
+                    <img class="reservation__img-phone" src="img/phone.png" alt="phone">
+                </picture>
+            </section>
+            <section class="main__section main__grade ">
+                <div class="main__grade-inner">
+                    <div class="section__container">
+                        <h3 class="main__text main__grade-text">Онлайн оценка автомобиля с пробегом</h3>
+                        <p class="main__text-description main__grade-description">
+                            Узнайте предварительную стоимость автомобиля за 1 мин, указав его параметры
+                        </p>
+                        <button class="main__btn main__grade-btn main__btn-adaptive">Оценить</button>
+                    </div>
+                    <div class="grade__vector">
+                        <img class="grade__vector-img" src="img/Vector.png" alt="vector">
+                    </div>
+                    <picture class="grade__mercedes">
+                        <source srcset="img/adaptive/600/mercedes600px.png" media="(max-width: 599px)">
+                        <source srcset="img/adaptive/900/mercedes900px.png" media="(max-width: 899px)">
+                        <source srcset="img/adaptive/MERCEDES1200px.png" media="(max-width: 1199px)">
+                        <img class="grade__mercedes-img" src="img/MERCEDES.png" alt="mercedes">
+                    </picture>
+                </div>
+            </section>
+        </article>
+    </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

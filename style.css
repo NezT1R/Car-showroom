@@ -1,0 +1,608 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+html, body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-weight: 400;
+    min-width: 444px;
+}
+
+.header__container-top {
+    border-bottom: 1px solid #CECECE;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__link {
+    display: inline-block;
+    height: 26px;
+}
+
+.logo {
+    margin: 19px 0;
+    height: 26px;
+}
+
+
+.menu {
+    max-width: 863px;
+    margin: 22px 0 22px 240px;
+}
+
+.menu__burger-btn {
+    display: none;
+}
+
+.menu__cross{
+    margin: 10px 0 0 10px;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 13px;
+    color: #666666;
+    line-height: 19.5px;
+}
+
+.header__button {
+    margin: 12px 0 12px 56px;
+}
+
+.button {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FBFBFB;
+    width: 204px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #0B457F;
+    padding: 0;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: #006CD8;
+}
+
+.header__bottom {
+    display: flex;
+    padding: 12px 0;
+    justify-content: space-between;
+    height: 41px;
+}
+
+.header__bottom-inner {
+    display: flex;
+    gap: 32px;
+}
+
+.header__address {
+    display: flex;
+    width: 251px;
+    height: 17px;
+    margin: auto 0;
+}
+
+.header__container-bottom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .15);
+}
+
+.header__bottom-text {
+    font-size: 12px;
+    color: #666666;
+    line-height: 14.5px;
+    margin: auto 0;
+    padding-left: 8px;
+}
+
+.header__gps {
+
+}
+
+.header__time-text {
+    height: 15px;
+}
+
+.header__bottom-gps {
+    display: flex;
+    width: 148px;
+    height: 16px;
+    margin: auto 0;
+}
+
+.header__gps-link {
+    text-decoration: none;
+    color: #666666;
+}
+
+.header__gps-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.header__bottom-time {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 172px;
+    height: 16px;
+}
+
+.article {
+    display: flex;
+    height: 512px;
+}
+
+.main__section {
+    border-radius: 12px;
+    display: inline-block;
+    height: auto;
+}
+
+.main__text-service {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 56px 0 32px 0;
+}
+
+.main__diagnostic {
+    max-width: 424px;
+    margin-right: 12px;
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+}
+
+.main__text {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 338px;
+    margin: 0;
+    padding: 0 54px 12px 0;
+}
+
+.main__text-description {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 32px;
+    width: 295px;
+}
+
+.main__diagnostic-description {
+
+}
+
+.section__container {
+    padding: 32px 0 0 32px;
+}
+
+.main__btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0.46px;
+    border-radius: 8px;
+    font-family: Inter;
+}
+
+.main__btn:hover {
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.main__diagnostic-btn {
+    margin-bottom: 106px;
+    width: 142px;
+    height: 45px;
+}
+
+.diagnostic__img-container {
+    padding: 0 12px 13px 12px;
+}
+
+.main__show {
+    background-image: url("img/bg2.png");
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.show__img-container {
+    background-image: url("img/ellipse.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 57px;
+
+}
+
+.main__inner {
+    width: 424px;
+}
+
+.main__section-center {
+    max-width: 424px;
+    height: 250px;
+}
+
+.main__show-btn {
+    margin-bottom: 49px;
+    width: 180px;
+    height: 45px;
+}
+
+.image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.show__img {
+    height: 118px;
+}
+
+.show__img-car {
+}
+
+.main__reservation {
+    background-image: url("img/bg3.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.main__reservation-btn {
+    padding: 14px 33px;
+    width: 180px;
+    height: 45px;
+}
+
+.main__grade-btn {
+    width: 119px;
+    height: 45px;
+}
+
+.reservation__img {
+    position: absolute;
+    right: 0;
+    height: 153px;
+}
+
+.reservation__img-phone {
+    border-radius: 14px;
+    height: 153px;
+}
+
+.main__grade {
+    background-image: url("img/bg4.png");
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    width: 424px;
+}
+
+.main__grade-inner {
+    background-image: url("img/grade-ellipse.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 12px;
+    height: 512px;
+    position: relative;
+}
+
+.grade__vector {
+    height: 154px;
+    position: absolute;
+    left: 60px;
+    bottom: 36px;
+}
+
+.grade__mercedes {
+    position: absolute;
+    height: 165px;
+    width: 347px;
+    bottom: 13px;
+    right: 11px;
+}
+
+.grade__mercedes-img {
+    height: 165px;
+    width: 347px;
+}
+
+.main__reservation-adaptive {
+    display: none;
+}
+
+@media (max-width: 1330px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+
+    .menu {
+        margin: 22px auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .wrapper {
+        padding: 0 86px;
+    }
+
+    .main__diagnostic {
+        min-width: 420px;
+        height: 233px;
+        position: relative;
+    }
+
+    .section__container {
+        min-width: 420px;
+        height: 233px;
+    }
+
+    .diagnostic__img-container {
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+
+    .main__btn-adaptive {
+        width: 148px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main__reservation-btn {
+        margin-top: 22px;
+    }
+
+    .show__img-container {
+        background-image: none;
+    }
+
+    .main__grade-inner {
+        background-image: none;
+    }
+
+    .grade__vector {
+        display: none;
+    }
+
+    .main__section-center {
+        height: 233px;
+        width: 420px;
+    }
+
+    .main__grade-inner {
+        min-width: 420px;
+        height: 233px;
+    }
+
+    .main__grade {
+        height: 233px;
+    }
+
+    .grade__mercedes {
+        width: auto;
+        height: 93px;
+        bottom: 0;
+        right: 6px;
+    }
+
+    .grade__mercedes-img {
+        width: auto;
+        height: auto;
+    }
+
+    .article {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .main__inner {
+        display: none;
+    }
+
+    .main__reservation-adaptive {
+        display: block;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .header__button {
+        margin-left: auto;
+    }
+
+    .menu {
+        order: 2;
+        margin: auto 0 auto 24px;
+        flex-grow: 0;
+        height: 44px;
+        width: 44px;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .menu__cross {
+        display: none;
+        margin-right: 20px;
+    }
+
+    .menu__burger {
+        display: block;
+    }
+
+    .menu__burger-btn {
+        display: block;
+    }
+
+    .show__img {
+        height: 93px;
+        right: 6px;
+    }
+
+    .reservation__img {
+        height: 93px;
+        right: 6px;
+    }
+
+    .reservation__img-phone {
+        height: auto;
+    }
+
+    .main__text-service {
+        width: 603px;
+        margin-left: 45px;
+    }
+
+    .main__reservation-description {
+        width: 306px;
+    }
+
+    .main__grade-description {
+        width: 306px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .main__text-service {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 899px) {
+    .wrapper {
+        padding: 0 44px;
+    }
+
+    .main__text-service {
+        margin-left: 0;
+    }
+
+    .main__diagnostic {
+        margin-right: 0px;
+    }
+
+    .main__section {
+        max-width: 680px;
+        width: 100%;
+        background-image: url("img/adaptive/bg900px.png");
+        margin: 0 0 12px 0;
+    }
+
+    .header__container-bottom {
+        display: none;
+    }
+
+    .header__container-top {
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, .15);
+    }
+
+    .grade__mercedes {
+        height: 123px;
+        right: 20px;
+    }
+
+    .diagnostic__img-container {
+        height: 123px;
+        right: 20px;
+    }
+
+    .show__img {
+        height: 123px;
+        right: 20px;
+    }
+
+    .reservation__img {
+        height: 123px;
+        right: 20px;
+    }
+
+    .main__text-service {
+        max-width: 603px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 599px) {
+    .header__button{
+        display: none;
+    }
+    .main__text-service{
+        font-size: 16px;
+        line-height: 19.36px;
+        min-width: 335px;
+        width: 100%;
+    }
+    .main__text{
+        font-size: 16px;
+    }
+    .main__text-description{
+        font-size: 14px;
+    }
+    .wrapper{
+        padding: 0 20px;
+    }
+    .main__section{
+        min-width: 335px;
+    }
+    .diagnostic__img-container{
+        height: 68px;
+        right: 8px;
+    }
+    .image{
+        height: 68px;
+        right: 8px;
+    }
+
+    .grade__mercedes{
+        height: 68px;
+    }
+
+    .grade__mercedes-img{
+        right: 8px;
+    }
+}
